@@ -8,5 +8,8 @@ The video component requires a compiled .exe or .app build of FFMPEG to work, wh
 Currently we are looking to:
 - Work with audio file formats, text formats, and improve our range of video formats
 - increase our range of photo file formats
-- improve the user experience, might fork to a GUI-based application instead of console based down the road
-Down the road more advanced features might be considered, such as batch/multithreaded conversions, branching out to photo/audio manipulation, etc.
+- Improve user experience (Down the line may fork to GUI application)
+- Improve reusability/readability/optimization of code
+- Possibly find a video solution that wouldn't rely on an external build of FFMPEG (reduce complexity and dependancies)
+- Down the road more advanced features might be considered, such as batch/folder/multithreaded conversions, branching out to photo/audio manipulation, etc.
+- More types of utilities relating to files 

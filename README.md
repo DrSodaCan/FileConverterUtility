@@ -2,7 +2,7 @@
 This is a WIP File converter built in C#.
 So far, it only includes conversion to some image formats, some video formats, alongside some video codec options
 
-This requires a fresh download of FFMPEG to work, as it is too big for a free github upload to include in this project.
+The video component requires a compiled .exe or .app build of FFMPEG to work, which I cannot provide in the project files as it is too big for a free github upload.
 
 # Issues/How To Help
 Currently we are looking to:

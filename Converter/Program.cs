@@ -9,6 +9,7 @@ class Program
         Dictionary<string, Action> conversions = new Dictionary<string, Action>()
         {
             {"image", () => ImageConverterUtility.CreateImage()},
+            {"image effect", () => ImageEffects.Quantize()},
             {"video", () => VideoConverterUtility.CreateVideo()},
         };
         
